@@ -1,0 +1,229 @@
+/* NavBar */
+.nav-bar{
+    background-color: #005555;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem ;
+    padding-right: 1rem; 
+    height: 5rem;
+}
+.navBar-left h2{
+    color: white; 
+}
+.navBar-right a{
+    text-decoration: none;
+}
+/* NavBar */
+
+/* Slider */
+.img1 img{
+    height: 100vh;
+}
+/* Slider */
+
+/* slider Content */
+.sliderContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sliderContent h2{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
+    animation: slide_up 1.4s ease;
+}
+.row1{
+    animation: slide_up 2.1s ease;
+}
+.search{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+}
+.sliderContent button{
+    width: 7rem;
+    height: 3rem;
+    background-color: #005555;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+}
+@keyframes slide_up{
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* sliderContent */
+
+/* container1 */
+.container1{
+    /* background-color: aquamarine; */
+    padding-bottom: 3rem;
+
+}
+.container1_row1{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.container1_row1_c1 h2{
+    color: blueviolet;
+}
+.container1_row1_c3 button{
+    background-color: #005555;
+    color: whitesmoke;
+    /* font-weight: bold; */
+    border-radius: 2rem;
+    border: none;
+    height: 3rem;
+    width: 12em;
+}
+/* Card */
+.card1-content{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card_h5{
+    color: #005555;
+    font-weight: bold;
+}
+.card1-content h6{
+    color: gray;
+    font-size: 12px;
+}
+.card1-content h5{
+    color: black;
+    font-weight: bold;
+}
+.card1-content button{
+    background-color: #005555;
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: none;
+    width: 8rem;
+    height: 2rem;
+}
+/* Card */
+
+/* container1 */
+
+/*container2*/
+.container2{
+    background-color: rgba(0, 0, 255, 0.103);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.container2_card span{
+    font-size: 100px;
+}
+.container2_card h5{
+    color: navy;
+}
+.container2_card p{
+    color: gray;
+}
+.container2_card a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.container2_card a:hover{
+    color: aqua;
+}
+.container2_card{
+    width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* container2 */
+
+/* container3 */
+.container3{
+    /* background-color: cadetblue; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.container3_col1 h2{
+    color: navy;
+}
+.container3_row{
+    margin-bottom: 1rem;
+}
+.container3_btn1{
+    background-color: gray;
+    border: none;
+    border-radius: 1rem;
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+}
+.container3_btn2{
+    background-color: gray;
+    border: none;
+    border-radius: 1rem;
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.container3_card{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.container3_card img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.star span{
+    color: orange;
+}
+.container3_card h4{
+    color: navy;
+}
+.container3_card h6{
+    color: gray;
+    font-size: 13px;
+}
+
+/* container3 */
+
+/* container4 */
+/* .container4{
+    background-color: rgba(128, 128, 128, 0.137);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100vw;
+    height: 100vh;
+}
+.container4_row{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container4_row2{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+} */
+
+/* container4 */
